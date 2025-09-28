@@ -1,0 +1,22 @@
+class Vetores {
+    public static void main(String[] args) {
+        int[] numeros = new int[10];
+        int[] quadrados = new int[10];
+
+        int i = 0;
+        while (i < 10) {
+            numeros[i] = i + 1;
+            quadrados[i] = numeros[i] * numeros[i];
+            i = i + 1;
+        }
+
+        int soma = 0;
+        int j = 0;
+        while (j < 10) {
+            soma = soma + quadrados[j];
+            j = j + 1;
+        }
+
+        System.out.println("Soma dos quadrados: " + soma);
+    }
+}

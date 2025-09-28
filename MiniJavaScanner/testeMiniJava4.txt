@@ -1,0 +1,6 @@
+class TesteString {
+    public static void main(String[] args) {
+        String msg = "Esta string nao fecha;
+        System.out.println(msg);
+    }
+}

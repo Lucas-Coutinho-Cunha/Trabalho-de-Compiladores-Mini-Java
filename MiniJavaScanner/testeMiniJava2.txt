@@ -1,0 +1,10 @@
+class Calculadora {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 5;
+        int resultado = (x + y * 2) % 3 - 1;
+        boolean cond = (x < y) || (x == 10 && !false);
+        System.out.println("Resultado: " + resultado);
+        System.out.println("Condição: " + cond);
+    }
+}

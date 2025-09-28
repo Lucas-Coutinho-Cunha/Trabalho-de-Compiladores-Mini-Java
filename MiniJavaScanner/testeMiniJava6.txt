@@ -1,0 +1,18 @@
+class Vetor {
+    int[] dados;
+    int length;
+
+    public static void main(String[] args) {
+        Vetor v = new Vetor();
+        v.dados = new int[5];
+        v.length = v.dados.length;
+
+        int i = 0;
+        while (i < v.length) {
+            v.dados[i] = i * 2;
+            i = i + 1;
+        }
+
+        System.out.println(v.dados[3]);
+    }
+}

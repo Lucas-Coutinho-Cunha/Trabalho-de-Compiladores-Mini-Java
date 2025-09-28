@@ -1,0 +1,19 @@
+class Pessoa {
+    String nome;
+    int idade;
+
+    public static void main(String[] args) {
+        Pessoa p1 = new Pessoa();
+        Pessoa p2 = new Pessoa();
+        p1.nome = "Alice";
+        p1.idade = 30;
+        p2.nome = "Bob";
+        p2.idade = 25;
+
+        int somaIdades = p1.idade + p2.idade;
+        System.out.println("Soma das idades: " + somaIdades);
+
+        boolean maiorQue20 = p1.idade > 20 && p2.idade > 20;
+        System.out.println("Ambos maiores que 20? " + maiorQue20);
+    }
+}

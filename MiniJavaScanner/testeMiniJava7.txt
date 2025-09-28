@@ -1,0 +1,26 @@
+class Jogo {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+        int pontos = 0;
+
+        if (a && b || !c) {
+            pontos = pontos + 5;
+        } else {
+            pontos = pontos + 10;
+        }
+
+        int i = 0;
+        while (i < 3) {
+            if (i % 2 == 0) {
+                System.out.println("Rodada par: " + i);
+            } else {
+                System.out.println("Rodada impar: " + i);
+            }
+            i = i + 1;
+        }
+
+        System.out.println("Pontos finais: " + pontos);
+    }
+}
